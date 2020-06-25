@@ -1,0 +1,35 @@
+
+.sliderMain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    background: white;
+}
+.before {
+    position: absolute;
+    top: 0;
+    height: 60%;
+    width: 100%;
+    background: #d44439;
+}
+
+.slider-container {
+    position: relative;
+    width: 98%;
+    height: 160px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.slider-container .slider-nav {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.slider-container .swiper-pagination-bullet-active {
+    background: #d44439;
+}
